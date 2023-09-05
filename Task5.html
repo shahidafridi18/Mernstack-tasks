@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+            color:blue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table,  td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+      .button-container {
+           display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+
+        
+        
+       
+    </style>
+</head>
+<body>
+<h1 >Registration form</h1>
+<form>
+    <center>
+        <table>
+            <tr>
+                <td style="text-align: center;"><label for="fn" ><b>First Name</b></label></td>
+                <td><input type="text" name="fn"/></td>
+            </tr> 
+            <tr>
+                <td style="text-align: center;"><label for="ln"><b>Last Name</b></label></td>
+               
+                <td><input type="text" name="ln"/></td>
+            </tr> 
+            <tr>
+                <td style="text-align: center;"><label for="email"><b>Email</b></label></td>
+                <td><input type="email" name="email"/></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><label for="password"><b>Password</b></label></td>
+                
+                <td><input type="password" name="password"/></td>
+            </tr> 
+            <tr>
+                <td style="text-align: center;"><label for="repassword" ><b>Re-enter Password</b></label></td>
+                
+                <td><input type="password" name="repassword"/><br></td>
+            </tr> 
+    
+            <tr>
+                <td style="text-align: center;"><label for="gender" ><b>Gender:</b></label></td>
+                <td><input type="radio" name="gender"/>Male<br>
+                    <input type="radio" name="gender"/>Female 
+                    </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><label for="age" ><b>Age</b></label></td>
+               
+                <td><input type="number" name="age"/></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><label for="pno" ><b>Phone Number</b></label></td>
+                <td><input type="tel" name="pno"/></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><label for="address" ><b>Address</b></label></td>
+                
+                <td><textarea rows="5" cols="50"></textarea></td>
+            </tr> 
+            <tr>
+                <td style="text-align: center;"><label for="state" ><b>State</b></label></td>
+                <td><input type="text" name="state"/></td>
+            </tr>
+            
+            <tr>
+                <td style="text-align: center;"><label for="country"><b>Country</b></label></td>
+               
+                <td>
+                    <select name="gender">
+                        <option>Choose your country</option>
+                        <option>India</option>
+                        <option>United States</option>
+                        <option>United Kingdom</option>
+                    </select>
+                </td>
+            </tr> 
+    
+            <tr>
+                <td style="text-align: center;"><label for="languages"><b>Languages Known</b></label></td>
+                <td><input type="checkbox" name="languages"/><label>English</label>
+                    <input type="checkbox" name="languages"/><label>Kannada</label>
+                    <input type="checkbox" name="languages"/><label>Hindi</label>
+                    <input type="checkbox" name="languages"/><label>Telugu</label>
+                
+                
+                </td>
+            </tr>
+
+          
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox"/>
+                    <label>Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                    <label style="text-align: right;">Log in to <a href="https://ethnus.com">Ethnus</a> website</label>
+                </td>
+            </tr>
+    
+            
+            
+    
+           
+               
+             
+        </table>
+
+    </center>
+    
+    
+    
+    <div class="button-container">
+        <button >Register</button>
+    </div>
+    
+   
+   
+</form>
+
+
+</body>
+</html>
