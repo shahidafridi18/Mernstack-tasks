@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            width: 220px;
+            display: inline-block;
+        }
+
+        form {
+            border: 1px solid rgb(113, 29, 43);
+            background-color: rgb(113, 29, 43);
+            padding: 20px;
+            margin: 0 auto;
+           max-width: 500px;
+            color: white;
+            
+        }
+
+        body {
+            background-color: rgb(66, 7, 16);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .button-container {
+            text-align: center;
+           
+            margin-top: 10px;
+           
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+
+        <label for=""> Name:</label>
+        <input type="text" name="" id="" placeholder="your name"><br><br>
+        <label for="">Email:</label>
+        <input type="email" name="" id="" placeholder="your email"><br><br>
+        <label for="psw">Password:</label>
+        <input type="password" name="psw" id="psw">
+        <br><br>
+        <label for="pno">Phone number:</label>
+        <input type="tel" name="pno" id="pno"><br><br>
+        <label for="gender">Gender: </label>
+        Male: <input type="radio" name="gender">
+        Female:<input type="radio" name="gender">
+        Other: <input type="radio" name="gender"><br><br>
+        <label for="language">Language</label>
+        <select>
+            <option > select Language</option>
+            <option >Telugu</option>
+            <option >Hindi</option>
+            <option >English</option>
+        </select> <br><br>
+        <label for="zip">Zip Code</label>
+        <input type="number" name="zip" id="zip">
+        <br><br>
+        <label for="about">About:</label>
+        <textarea name="about" id="about" cols="20" rows="3" placeholder="Write About yourself"></textarea>
+
+        <br><br> 
+        <div class="button-container">
+            <button style="padding-left: 100px; padding-right: 100px; border-radius: 1px; padding-top:8px; padding-bottom: 8px;"><b>Register</b></button>
+        </div>
+    
+
+    </form>
+</body>
+
+</html>
